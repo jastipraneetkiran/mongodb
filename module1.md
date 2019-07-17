@@ -9,10 +9,9 @@ __*There are two common type of database present :*__
     - __Examples :__
         -     MySQl.
         -     Oracal Database.
-    - Diagram
-        ![](images/Screenshot from 2019-07-17 23-14-52.png)
+![](images/Screenshot from 2019-07-17 23-14-52.png)
     
 
 - __Document Database OR NoSQl Databse__
-    - Diagram
-        ![](images/Screenshot from 2019-07-17 23-16-10.png)
+    
+![](images/Screenshot from 2019-07-17 23-16-10.png)
