@@ -22,5 +22,8 @@ __*There are two common type of database present :*__
       All information related to the document is stored in one document,in one place.
       No need to use join operations. And the documents in database can be edited independent from others you can insert
       new documents and delete documents and so on.
+     - __Examples :__
+        -     NOSQl.
+        -     MongoDB.
     
 ![](images/s2.png)
