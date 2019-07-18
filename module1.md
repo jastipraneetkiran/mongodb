@@ -105,4 +105,6 @@ And here I can use for example "db.version()" command. And this command will sho
 
 And it is Version 4.0.6. 
 
+![](images/s8.png)
+
 
