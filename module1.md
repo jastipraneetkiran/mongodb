@@ -78,7 +78,9 @@ Let's start MongoDB Server.
 Just "mongod" and Enter. And if everything is fine then you will see that server was started and server
 
 will wait for connections on port 27017.
+
 ![](images/s7.png)
+
 In the other terminal window  check whether "mongo" command is available and we can also check version of the MongoDB Shell.
 
 Just "mongo -version". Version of the mongo shell on my computer is the same as the version of
@@ -86,6 +88,7 @@ Just "mongo -version". Version of the mongo shell on my computer is the same as 
 the MongoDB Server because I have installed them as one package.
 
 And this version is 4.0.6.
+
 ![](images/s4.png)
 
 Let's start MongoDB Shell. Just "mongo" command and enter. And here it is.
@@ -95,9 +98,11 @@ I have successfully connected to the MongoDB Server.
 No username and password.
 
 was asked because MongoDB was installed on the same computer where this MongoDB Shell is located.
+
 ![](images/s5.png)
 
 And here I can use for example "db.version()" command. And this command will show version of the server.
 
-And it is Version 4.0.6. OK let's move on
+And it is Version 4.0.6. 
+
 
