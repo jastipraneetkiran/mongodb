@@ -53,4 +53,49 @@ And that is a mongo shell. Both mongo shell and mongo server are based on the Ja
 But you can also manage remote mongo server using local mongo shell. For example you can connect to remote
 MongoDB Server using MongoDB Shell installed on your local computer.
     ![](images/s3.png)
+ 
+ - __Working__
+ 
+After successfully installed MongoDB Server on your local computer.
+
+let's launch it and connect to it from MongoDB Shell.
+
+First you should check whether "mongodb"
+
+command is available in your shell. If it is available
+
+you can check for example version of the MongoDB Server. Type "mongod -version". 
+
+
+And on my computer I have installed latest version.
+
+It is 4.0.6.
+
+In your case it may be something larger than this one.
+
+Let's start MongoDB Server.
+
+Just "mongod" and Enter. And if everything is fine then you will see that server was started and server
+
+will wait for connections on port 27017. In the other terminal window
+
+I'll check whether "mongo" command is available and we can also check version of the MongoDB Shell.
+
+Just "mongo -version". Version of the mongo shell on my computer is the same as the version of
+
+the MongoDB Server because I have installed them as one package.
+
+And this version is 4.0.6.
+
+Let's start MongoDB Shell. Just "mongo" command and enter. And here it is.
+
+I have successfully connected to the MongoDB Server.
+
+No username and password.
+
+was asked because MongoDB was installed on the same computer where this MongoDB Shell is located.
+
+And here I can use for example "db.version()" command. And this command will show version of the server.
+
+And it is Version 4.0.6. OK let's move on
 
