@@ -52,5 +52,5 @@ Create, Read, Update and Delete.
 And that is a mongo shell. Both mongo shell and mongo server are based on the JavaScript engine. In order to manage MongoDB Server you can use mongo shell located on the same computer.
 But you can also manage remote mongo server using local mongo shell. For example you can connect to remote
 MongoDB Server using MongoDB Shell installed on your local computer.
-
+    ![](images/s3.png)
 
