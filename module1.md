@@ -27,3 +27,25 @@ __*There are two common type of database present :*__
         -     MongoDB.
     
 ![](images/s2.png)
+
+## MongoDB Structure
+
+Each MongoDB database consists of databases. There are default databases that are created after
+
+each installation of the MongoDB. And they are called for example admin and local. Each database consists of
+
+the collections and each collection consists of the documents.
+
+Usually documents are grouped into the same collection by common fields.
+
+Let's suppose that you want to create e-commerce web application. And you'll create a database called "e-commerce store".
+
+And you will probably create such collections as "products", "productCategories", "shoppingCart",
+
+"customers" and so on.
+
+Again schema is flexible and it is not mandatory to have same set of fields in the documents in the same collection.
+
+That is the structure of each MongoDB database.
+
+
