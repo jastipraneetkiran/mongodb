@@ -31,21 +31,26 @@ __*There are two common type of database present :*__
 ## MongoDB Structure
 
 Each MongoDB database consists of databases. There are default databases that are created after
-
 each installation of the MongoDB. And they are called for example admin and local. Each database consists of
-
 the collections and each collection consists of the documents.
-
 Usually documents are grouped into the same collection by common fields.
-
 Let's suppose that you want to create e-commerce web application. And you'll create a database called "e-commerce store".
-
 And you will probably create such collections as "products", "productCategories", "shoppingCart",
-
 "customers" and so on.
-
 Again schema is flexible and it is not mandatory to have same set of fields in the documents in the same collection.
-
 That is the structure of each MongoDB database.
+
+## Mongo shell and Server
+`"mongod"` command is used to launch MongoDB Server and `"mongo"` command is used to launch MongoDB Shell.
+Those two applications are separate but what those two applications do? MongoDB Server stores data in the MongoDB
+database.
+It is the main point of data storage. And mongo shell is used for management of the mongo server. Using mongo
+shell you can insert documents into the mongo server, you can update documents, you can delete documents
+and so on.
+In other words you can perform all kinds of CRUD operations -
+Create, Read, Update and Delete.
+And that is a mongo shell. Both mongo shell and mongo server are based on the JavaScript engine. In order to manage MongoDB Server you can use mongo shell located on the same computer.
+But you can also manage remote mongo server using local mongo shell. For example you can connect to remote
+MongoDB Server using MongoDB Shell installed on your local computer.
 
 
